@@ -19,7 +19,7 @@ func main() {
 	fmt.Printf("ProductExcept: %d\n", ProductExceptSelf(nums))
 	fmt.Println("************************")
 
-	maxProductSub := []int{-2, 3, 4}
+	maxProductSub := []int{-5, 100, -3, -7}
 	fmt.Printf("MaximumProductSubArray: %d\n", MaximumProductSubArray(maxProductSub))
 	fmt.Println("************************")
 
