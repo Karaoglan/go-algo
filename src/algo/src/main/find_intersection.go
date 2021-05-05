@@ -1,16 +1,5 @@
 package main
 
-import (
-	"fmt"
-)
-
-func main() {
-	A := []int{2, 5, 3, 2, 8, 1}
-	B := []int{7, 9, 5, 2, 4, 10, 10}
-	C := []int{6, 7, 5, 5, 3, 7}
-	fmt.Println(PresentIntTwo(A, B, C))
-}
-
 func PresentIntTwo(A, B, C []int) []int {
 
 	intMap := make(map[int]int)
@@ -25,7 +14,6 @@ func PresentIntTwo(A, B, C []int) []int {
 		keys[count] = k
 		count++
 	}
-	fmt.Println(count)
 
 	return keys
 }

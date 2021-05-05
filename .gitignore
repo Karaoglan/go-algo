@@ -10,6 +10,7 @@
 
 # pkg ignore
 pkg/*
+src/github.com
 
 # Test binary, built with `go test -c`
 *.test

@@ -1,14 +1,5 @@
 package main
 
-import (
-	"fmt"
-)
-
-func main() {
-	nums := []int{1, 2, 3, 4}
-	fmt.Println(ProductExceptSelf(nums))
-}
-
 func ProductExceptSelf(nums []int) []int {
 	sol := make([]int, len(nums))
 
