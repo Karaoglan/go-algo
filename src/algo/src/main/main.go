@@ -20,7 +20,7 @@ func main() {
 	fmt.Println("************************")
 
 	maxProductSub := []int{-5, 100, -3, -7}
-	fmt.Printf("MaximumProductSubArray: %d\n", MaximumProductSubArray(maxProductSub))
+	fmt.Printf("MaximumProductSubArray: %d\n", MaxProductEase(maxProductSub))
 	fmt.Println("************************")
 
 	v1 := []int{7, 4, 1, 10}
@@ -29,4 +29,7 @@ func main() {
 	fmt.Printf("ClosestPair: %d\n", ClosestSumPair(v1, v2, target))
 	fmt.Println("************************")
 
+	minSorted := []int{4, 5, 6, 7, 2, 3}
+	fmt.Printf("FindMinSorted: %d\n", FindMinInSorted(minSorted))
+	fmt.Println("************************")
 }
